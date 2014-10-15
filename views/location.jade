@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	h1 Magellan's Magic Voyage
+	
+	h3 #{title}
+	h4 #{coords}
+	p #{description}
+	
+	a(href='/#{prev}') Previous
+
+	a(href='/#{next}') Next
